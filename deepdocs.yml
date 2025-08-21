@@ -1,5 +1,5 @@
 # .deepdocs/deepdocs.yaml
-target:
+target_repo:
   - url: "https://github.com/Nimith-M-Gowda/React-Typescript" # Docs will be generated into /docs folder in your repo
 
 reinit: "random_string_123"
