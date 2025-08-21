@@ -1,6 +1,10 @@
 target:
-  - url: "docs/"
+  - url: "docs/" # folder where docs will be generated
 
-include:  []
+include:
+  - src/ # specify which folders/files to include
 
-reinit: "a-random-string"
+exclude:
+  - node_modules/ # skip heavy/unnecessary dirs
+
+reinit: "some-random-string" # unique string to force reinitialization

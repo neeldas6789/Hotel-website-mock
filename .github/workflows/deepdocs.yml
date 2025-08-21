@@ -1,0 +1,19 @@
+name: Deepdocs
+
+on:
+  push:
+    branches:
+      - main # or "master" or whichever branch you want docs to update on
+
+jobs:
+  deepdocs:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout your repo
+      - uses: actions/checkout@v3
+
+      # Step 2: Run Deepdocs
+      - uses: deepdocsai/deepdocs-action@v1
+        with:
+          config: deepdocs.yaml # path to your config
+          github_token: ${{ secrets.GITHUB_TOKEN }}
