@@ -4,4 +4,4 @@ target:
 
 include: "src"
 
-reinit: "unique-string-to-force-refresh"
+reinit: "unique-string-to-force-refresh-1"
