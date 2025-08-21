@@ -11,5 +11,10 @@ include:
 exclude:
   - "node_modules/**"
   - "build/**"
+  -
+
+ignore:
+  - "old"
+  - "README.md"
 
 reinit: "unique-string-to-force-refresh"
