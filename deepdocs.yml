@@ -1,3 +1,3 @@
 # .deepdocs/deepdocs.yaml
-target_repo:
+target:
   - url: "https://github.com/Nimith-M-Gowda/Hotel-website-mock" # Docs will be generated into /docs folder in your repo
