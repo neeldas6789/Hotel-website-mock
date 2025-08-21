@@ -1,5 +1,5 @@
 target:
-  - url: "docs/" # relative folder or GitHub repo URL where docs should live
+  - url: "docs/"
 
 include:
   - src/
