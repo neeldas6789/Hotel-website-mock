@@ -1,5 +1,5 @@
 target:
-  - url: "docs/" # folder where docs will be generated
+  - url: "docs/" # relative folder or GitHub repo URL where docs should live
 
 include:
   - src/
@@ -9,4 +9,4 @@ exclude:
   - node_modules/
   - dist/
 
-reinit: "some-random-string"
+reinit: "init-001"
