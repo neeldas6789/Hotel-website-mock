@@ -1,3 +1,5 @@
 # .deepdocs/deepdocs.yaml
 target:
   - url: "https://github.com/Nimith-M-Gowda/Hotel-website-mock" # Docs will be generated into /docs folder in your repo
+
+reinit: "random_string_123"
