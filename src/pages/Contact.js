@@ -13,6 +13,9 @@ function Contact(props) {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, message)
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then((response) => response.json())
+      .then((json) => console.log(json));
     setName("")
     setEmail("")
     setMessage("")
