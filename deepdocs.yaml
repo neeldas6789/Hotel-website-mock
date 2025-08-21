@@ -8,4 +8,4 @@ exclude:
   - node_modules/
   - dist/
 
-reinit: "force-scan-001"
+reinit: "force-scan-002"
