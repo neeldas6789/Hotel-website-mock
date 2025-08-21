@@ -3,10 +3,9 @@ target:
 
 include:
   - src/
-  - server/
 
 exclude:
   - node_modules/
   - dist/
 
-reinit: "init-002"
+reinit: "force-scan-001"
