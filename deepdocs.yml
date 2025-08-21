@@ -2,19 +2,6 @@
 target:
   - url: "docs/" # Docs will be generated into /docs folder in your repo
 
-include:
-  - "src/**/*.tsx"
-  - "src/**/*.ts"
-  - "src/**/*.jsx"
-  - "src/**/*.js"
-
-exclude:
-  - "node_modules/**"
-  - "build/**"
-  -
-
-ignore:
-  - "old"
-  - "README.md"
+include: ["src"]
 
 reinit: "unique-string-to-force-refresh"
