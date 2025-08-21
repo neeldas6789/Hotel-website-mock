@@ -1,6 +1,6 @@
 # .deepdocs/deepdocs.yaml
 target:
-  - url: "https://github.com/Nimith-M-Gowda/Hotel-website-mock/tree/test/docs/check.md" # Docs will be generated into /docs folder in your repo
+  - url: "https://github.com/Nimith-M-Gowda/Hotel-website-mock/tree/main/docs/check.md" # Docs will be generated into /docs folder in your repo
 
 reinit: "unique-string-to-force-refresh-1"
 
