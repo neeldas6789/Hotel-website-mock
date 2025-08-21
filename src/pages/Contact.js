@@ -34,7 +34,7 @@ function Contact(props) {
           </p>
           <div className="contact-form">
             <form className="form-container">
-              <label>Name</label>
+              <label>UserName</label>
               <input
                 type="text"
                 name="name"
