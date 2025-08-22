@@ -1,6 +1,5 @@
-# .deepdocs/deepdocs.yaml
 target:
-  - url: "examples" # Docs will be generated into /docs folder in your repo
+  - url: "examples"
 
 reinit: "unique-string-to-force-refresh-1"
 
