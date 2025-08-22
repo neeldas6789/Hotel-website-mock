@@ -3,4 +3,4 @@ target:
 reinit: "sds"
 ignore: []
 include:
-  - "src/**/*.js"
+  - "src"
