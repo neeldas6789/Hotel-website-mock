@@ -1,5 +1,5 @@
 target:
-  - url: "README.md"
+  - url: "examples"
 reinit: "sds-3"
 ignore: []
 include:
