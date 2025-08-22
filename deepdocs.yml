@@ -1,6 +1,6 @@
 target:
   - url: "README.md"
-reinit: "sds-2"
+reinit: "sds-3"
 ignore: []
 include:
   - "src"
