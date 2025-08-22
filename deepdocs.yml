@@ -2,3 +2,5 @@ target:
   - url: "README.md"
 reinit: "sds"
 ignore: []
+include:
+  - "src"
