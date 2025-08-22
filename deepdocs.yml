@@ -3,7 +3,4 @@ target:
 reinit: "sds"
 ignore: []
 include:
-  - "src/**/*.tsx"
-  - "src/**/*.ts"
-  - "src/**/*.jsx"
   - "src/**/*.js"
